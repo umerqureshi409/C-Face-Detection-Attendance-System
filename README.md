@@ -55,7 +55,7 @@ cd C-Face-Detection-Attendance-System
 ### **3️⃣ Build the Application**  
 Compile the system with the required OpenCV libraries:  
 ```bash
-g++ -o C-Face-Detection-Attendance-System main.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_face -lopencv_imgcodecs
+g++ -o C-Face-Detection-Attendance-System FACEAPP.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_face -lopencv_imgcodecs
 ```
 
 ### **4️⃣ Run the System**  
@@ -63,7 +63,8 @@ Start the application:
 ```bash
 ./C-Face-Detection-Attendance-System
 ```
-
+### ** Make a folder named as database **  
+- In that folder create two files named as "student_database.csv" and "teachers_database.csv" and then feel free to use application.
 ---
 
 ## **📚 Usage Instructions**  
