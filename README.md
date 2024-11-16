@@ -48,20 +48,20 @@ The **Face Detection Attendance System** is a modern, secure, and interactive ap
 
 ### **2️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/face-detection-attendance-system.git
-cd face-detection-attendance-system
+git clone https://github.com/umerqureshi409/C-Face-Detection-Attendance-System.git
+cd C-Face-Detection-Attendance-System
 ```
 
 ### **3️⃣ Build the Application**  
 Compile the system with the required OpenCV libraries:  
 ```bash
-g++ -o attendance_system main.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_face -lopencv_imgcodecs
+g++ -o C-Face-Detection-Attendance-System main.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_face -lopencv_imgcodecs
 ```
 
 ### **4️⃣ Run the System**  
 Start the application:  
 ```bash
-./attendance_system
+./C-Face-Detection-Attendance-System
 ```
 
 ---
